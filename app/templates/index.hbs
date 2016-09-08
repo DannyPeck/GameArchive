@@ -1,2 +1,7 @@
-<h1>Hello world!</h1>
-{{outlet}}
+<div class="GameContainer">
+  {{#each model as |game|}}
+    <div class="Game">
+      <p>{{game.title}}, {{game.system}}, {{game.year}}</p>
+    </div>
+  {{/each}}
+</div>
