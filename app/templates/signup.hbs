@@ -1,0 +1,10 @@
+<div class="signup">
+  <span>username: </span> {{input type="text" value=username}}
+  <br>
+  <br>
+  <span>password: </span> {{input type="text" value=password}}
+</div>
+<br>
+<button id="signup" {{action "signup" username password}}>
+    signup
+</button>
