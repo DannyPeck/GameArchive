@@ -21,5 +21,10 @@ export default Ember.Route.extend({
   // returns game data
   model() {
     return games;
+  },
+  actions: {
+    add(){
+      alert('add');
+    }
   }
 });

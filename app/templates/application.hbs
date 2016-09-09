@@ -2,9 +2,17 @@
   {{#link-to 'index'}}
     <h1><strong>GameArchive</strong></h1>
   {{/link-to}}
-  {{#link-to 'games'}}
-    <p>Games</p>
-  {{/link-to}}
+  <div class="links">
+    {{#link-to 'games'}}
+      Games
+    {{/link-to}}
+    {{#link-to 'signup'}}
+      Signup
+    {{/link-to}}
+    {{#link-to 'login'}}
+      Login
+    {{/link-to}}
+  </div>
 </div>
 <div class="body">
   {{outlet}}
