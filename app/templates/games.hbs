@@ -3,8 +3,8 @@
   <button id="add" {{action "add"}}>
     add
   </button>
-  {{#each model as |game|}}
+  {{#each model as |entry|}}
     <p><strong>-----------------------</strong></p>
-    {{game-entry game=game}}
+    {{game-entry game=entry}}
   {{/each}}
 </div>
